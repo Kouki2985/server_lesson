@@ -1,0 +1,169 @@
+top centos7
+    2  docker stop centos7
+    3  docker start centos7
+    4  exit
+    5  docker stop centos7
+    6  exit
+    7  ls /
+    8  ls /usr
+    9  pwd
+   10  cd /root
+   11  pwd
+   12  cd usr
+   13  cd /usr
+   14  pwd
+   15  ls
+   16  cd /home
+   17  mkdir test1
+   18  ls
+   19  mkdir test2/test3
+   20  mkdir -p test2/test3
+   21  ls test2
+   22  touch test1/index.php
+   23  ls test1
+   24  cd /home/test1 && ls
+   25  cp index.php copy.php
+   26  ls
+   27  cd /home
+   28  cp -r test1 test4
+   29  ls
+   30  ls test4
+   31  ls
+   32  mv test2/test3 test3
+   33  ls
+   34  ls test3
+   35  ls test4
+   36  mv test4 test1_copy
+   37  ls
+   38  ls test1
+   39  rm test1/copy.php
+   40  ls test1
+   41  rm test1_copy/*.php
+   42  ls test1_copy
+   43  ls test1
+   44  cat README.md
+   45  '# Hello World' > README.md
+   46  echo '# Hello World' > README.md
+   47  cat README.md
+   48  echo '# Server Lesson' > README.md
+   49  cat README.md
+   50  echo 'Linux Practice' >> README.md
+   51  echo '-----------------' >> README.md
+   52  cat README.md
+   53  vi README.md
+   54  cd /root
+   55  ls
+   56  ls root
+   57  pws
+   58  pwd
+   59  mkdir server_lesson && cd server_lesson
+   60  ls
+   61  pwd
+   62  yum update -y && yum -y install git
+   63  git version
+   64  git init
+   65  ls
+   66  touch first.txt
+   67  ls
+   68  mkdir -p linux_practice1/public ls
+   69  ls
+   70  rm ls
+   71  ls linux_practice1  ls
+   72  rm linux_practice1  ls
+   73  rm linux_practice1
+   74  ls linux_practice1
+   75  ls ls
+   76  rm  ls
+   77  rm -r ls
+   78  ls
+   79  ls linux_practice1
+   80  cd linux_practice1/public
+   81  touch index.php
+   82  ls
+   83  cp index.php index_bx.php
+   84  ls
+   85  cd /linux_practice1
+   86  cd /linux_practice1
+   87  cd ..
+   88  ls
+   89  cp -r public?? tmp
+   90  ls
+   91  cp -r public tmp
+   92  ls
+   93  exit
+   94  ls
+   95  cd root
+   96  ls
+   97  cd server_lesson
+   98  ls
+   99  cd linux_practice1
+  100  ls
+  101  cd tmp
+  102  ls
+  103  rm index_bx.php
+  104  ls
+  105  cd /server_lesson
+  106  cd ..
+  107  cd ..
+  108  echo '# Hello World' > README.md
+  109  vi README.md
+  110  exit
+  111  ls /
+  112  ls /bin
+  113  swd
+  114  pewd
+  115  cd server_lesson
+  116  cd root
+  117  ls
+  118  cd server_lessomn
+  119  cd server_lesson
+  120  ls
+  121  cd linux_practice1
+  122  vi README.md
+  123  cd .
+  124  cd ..
+  125  vi README.md
+  126  mkdir linux_practice2?
+  127  ls
+  128  cd linux_practice2
+  129  cd  linux_practice2?
+  130  cd ..
+  131  rm linux_practice2?
+  132  rm -r linux_practice2?
+  133  ls
+  134  mkdir linux_practice2
+  135  ls
+  136  cd linux_practice2
+  137  mkdir documents
+  138  ls
+  139  cd documents
+  140  touch gizumo{01..50}.md
+  141  ls
+  142  cd ..
+  143  mkdir trash
+  144  ls
+  145  mv documents/gizumo{20..40}.md trash
+  146  ls
+  147  cd trash
+  148  ls
+  149  cd ..
+  150  cd documents
+  151  ls
+  152  cd ..
+  153  touch .gitignore
+  154  ls
+  155  vi .gitignore
+  156  gls -al
+  157  ls -all
+  158  git status
+  159  cd ..
+  160  cd .
+  161  cd /
+  162  cd -
+  163  cd -
+  164  cd server_lesson
+  165  ls
+  166  cd /root
+  167  cd server_lesson
+  168  cd linux_practice2
+  169  history 300
